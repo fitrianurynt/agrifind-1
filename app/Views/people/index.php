@@ -37,7 +37,7 @@
         <div class="col">
           <form action="" method="get">
             <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Search People..." name="keyword" value="<?= $keyword; ?>">
+              <input onClick="this.select();" type="text" class="form-control" placeholder="Search People..." name="keyword" value="<?= $keyword; ?>">
               <button class="btn btn-secondary" type="submit" name="submit">Search</button>
             </div>
           </form>
@@ -70,7 +70,7 @@
           <tbody>
 
             <!-- table content -->
-            <?php $i = 1 + (25 * ($currentPage - 1)) ?>
+            <?php $i = 1 + (2 * ($currentPage - 1)) ?>
             <?php foreach ($user as $u) : ?>
               <tr onclick="window.location='/profile/view/<?= $u['username']; ?>'">
                 <th class="align-middle" scope="row"><?= $i++; ?></th>

@@ -33,7 +33,7 @@ class People extends BaseController
   public function index()
   {
 
-    $currentPage = $this->request->getVar('page_user') ? $this->request->getVar('page_user') : 1;
+    $currentPage = $this->request->getVar('page_user_data') ? $this->request->getVar('page_user_data') : 1;
 
     $keyword = $this->request->getVar('keyword');
 

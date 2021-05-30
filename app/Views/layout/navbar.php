@@ -12,6 +12,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link" href="/profile">Profile</a>
+        <a class="nav-link" href="/people">People</a>
 
 
       </div>

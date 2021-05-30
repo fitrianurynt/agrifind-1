@@ -8,6 +8,7 @@ use App\Models\Contact_Model;
 use App\Models\Skill_Model;
 use App\Models\Achievement_Model;
 use App\Models\Department_Model;
+use App\Models\Follow_Model;
 
 class Profile extends BaseController
 {
@@ -17,6 +18,7 @@ class Profile extends BaseController
   protected $deptModel;
   protected $skillModel;
   protected $achieveModel;
+  protected $followModel;
   protected $session;
 
   public function __construct()
@@ -27,6 +29,7 @@ class Profile extends BaseController
     $this->deptModel = new Department_Model();
     $this->skillModel = new Skill_Model();
     $this->achieveModel = new Achievement_Model();
+    $this->followModel = new Follow_Model();
     $this->session = \Config\Services::session();
   }
 
@@ -132,9 +135,33 @@ class Profile extends BaseController
       'contact' => $this->contactModel->where('id', $user_id)->first(),
       'skill' => $this->skillModel->where('user_id', $user_id)->findAll(),
       'achieve' => $this->achieveModel->where('user_id', $user_id)->findAll(),
-      'rank' => $this->achieveModel->rank($user_id)
+      'rank' => $this->achieveModel->rank($user_id),
+      'is_following' => $this->followModel->where('follower_id', $session_id)->where('following_id', $user_id)->first()
     ];
 
     return view('/profile/view', $data);
+  }
+
+  public function follow($id, $username)
+  {
+    $session_id = $this->session->get('id');
+
+    $this->followModel->set([
+      'follower_id' => $session_id,
+      'following_id' => $id
+    ])->insert();
+
+    return redirect()->to("/profile/view/$username");
+
+  }
+
+  public function unfollow($id, $username)
+  {
+    $session_id = $this->session->get('id');
+
+    $this->followModel->where('follower_id', $session_id)->where('following_id', $id)->delete();
+
+    return redirect()->to("/profile/view/$username");
+
   }
 }

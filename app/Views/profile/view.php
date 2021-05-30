@@ -9,12 +9,19 @@
     <div class="col-9">
       <div class="row">
         <div class="col">
-          <h1 class="">My Profile</h1>
+          <h1 class="">Profile <?= $user['name']; ?></h1>
         </div>
         <div class="col">
           <div class="float-end">
             <?php if ($user['cv']) : ?>
               <a class="btn btn-primary" href="/docs/cv/<?= $user['cv'] ?>" target="_blank">CV</a>
+            <?php endif; ?>
+
+            <?php if ($is_following) : ?>
+              <a class="btn btn-outline-primary" href="/profile/unfollow/<?= $user['id']; ?>/<?= $user['username']; ?>"><i class="bi bi-person-check-fill"></i></a>
+            <?php else : ?>
+
+              <a class="btn btn-primary" href="/profile/follow/<?= $user['id']; ?>/<?= $user['username']; ?>"><i class="bi bi-person-plus-fill"></i></a>
             <?php endif; ?>
           </div>
 
