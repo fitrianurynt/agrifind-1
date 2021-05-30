@@ -31,3 +31,10 @@ memenuhi kebutuhan akan mendapatkan teman yang memiliki kemampuan untuk melengka
 projek maupun kebutuhan anggota kelompoknya. Memudahkan orang-orang untuk saling
 melengkapi satu sama lain ketika ingin membuat suatu hal. Harapannya apa yang kami buat ini
 dapat membantu menyelesaikan permasalahan yang terjadi di lingkungan kami.</p>
+
+# TUJUAN
+1. Memudahkan mahasiswa untuk menemukan orang yang memiliki kemampuan dalam
+bidang tertentu.
+2. Sebagai wadah untuk memperlihatkan keahlian yang dimiliki.
+3. Menambah relasi dan koneksi baru antar mahasiswa.
+
