@@ -20,11 +20,16 @@
             <?php if ($is_following) : ?>
               <a class="btn btn-outline-primary" href="/profile/unfollow/<?= $user['id']; ?>/<?= $user['username']; ?>"><i class="bi bi-person-check-fill"></i></a>
             <?php else : ?>
-
               <a class="btn btn-primary" href="/profile/follow/<?= $user['id']; ?>/<?= $user['username']; ?>"><i class="bi bi-person-plus-fill"></i></a>
             <?php endif; ?>
-          </div>
 
+            <?php if ($user['availability'] != 'Do Not Disturb') : ?>
+              <!-- Button trigger modal message -->
+              <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#message">
+                <i class="bi bi-envelope-fill"></i>
+              </button>
+            <?php endif; ?>
+          </div>
         </div>
       </div>
 
@@ -95,7 +100,6 @@
       </table>
 
       <h2>Achievement</h2>
-
       <table class="table table-hover align-middle table-fit">
         <thead>
           <col style="width: 5%;">
@@ -169,7 +173,7 @@
   </div>
 </div>
 
-<!-- Modal -->
+<!-- Modal COntact -->
 <div class="modal fade" id="contactinfo" tabindex="-1" aria-labelledby="contactinfoLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -196,6 +200,39 @@
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="message" tabindex="-1" aria-labelledby="messageLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="messageLabel">Message to <strong><?= $user['name']; ?></strong></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="/profile/message/<?= $user['id']; ?>" method="POST">
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required></textarea>
+            <div id="message_max" class="form-text">Max. 512 characters</div>
+          </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-success">Send</button>
+      </div>
+      </form>
+
     </div>
   </div>
 </div>

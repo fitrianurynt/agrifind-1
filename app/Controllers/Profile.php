@@ -9,6 +9,7 @@ use App\Models\Skill_Model;
 use App\Models\Achievement_Model;
 use App\Models\Department_Model;
 use App\Models\Follow_Model;
+use App\Models\Message_Model;
 
 class Profile extends BaseController
 {
@@ -19,6 +20,7 @@ class Profile extends BaseController
   protected $skillModel;
   protected $achieveModel;
   protected $followModel;
+  protected $messageModel;
   protected $session;
 
   public function __construct()
@@ -30,6 +32,7 @@ class Profile extends BaseController
     $this->skillModel = new Skill_Model();
     $this->achieveModel = new Achievement_Model();
     $this->followModel = new Follow_Model();
+    $this->messageModel = new Message_Model();
     $this->session = \Config\Services::session();
   }
 
@@ -125,7 +128,7 @@ class Profile extends BaseController
   public function view($username)
   {
     $session_id = $this->session->get('id');
-    if($username == $this->dataModel->where('id', $session_id)->first()['username'])
+    if ($username == $this->dataModel->where('id', $session_id)->first()['username'])
       return redirect()->to('/profile');
 
     $user = $this->dataModel->where('username', $username)->first();
@@ -156,7 +159,6 @@ class Profile extends BaseController
     ])->insert();
 
     return redirect()->to("/profile/view/$username");
-
   }
 
   public function unfollow($id, $username)
@@ -166,6 +168,30 @@ class Profile extends BaseController
     $this->followModel->where('follower_id', $session_id)->where('following_id', $id)->delete();
 
     return redirect()->to("/profile/view/$username");
+  }
 
+  public function message($id)
+  {
+    $session_id = $this->session->get('id');
+    $sender = $this->dataModel->where('id', $session_id)->first();
+    $receiver = $this->dataModel->where('id', $id)->first();
+
+    $subject = $this->request->getVar('subject');
+    $message = $this->request->getVar('message');
+
+    $this->messageModel->set([
+      'sender_id' => $session_id,
+      'receiver_id' => $id,
+      'sender_name' => $sender['name'],
+      'receiver_name' => $receiver['name'],
+      'subject' => $subject,
+      'message' => $message,
+      'delete_sender' => 0,
+      'delete_receiver' => 0,
+      'created_at' => time()
+    ])->insert();
+    
+    $username = $receiver['username'];
+    return redirect()->to("/profile/view/$username");
   }
 }
