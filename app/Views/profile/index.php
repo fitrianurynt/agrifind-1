@@ -44,6 +44,8 @@
         Contact info
       </a>
 
+      <p>Following <?= count($following_count); ?> <span class="mx-2">Follower <?= count($follower_count); ?></span></p>
+
       <!-- Info -->
       <h2>Information</h2>
       <ul>

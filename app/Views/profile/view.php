@@ -51,6 +51,8 @@
         Contact info
       </a>
 
+      <p>Following <?= count($following_count); ?> <span class="mx-2">Follower <?= count($follower_count); ?></span></p>
+
       <!-- Info -->
       <h2>Information</h2>
       <ul>
@@ -62,8 +64,8 @@
       <h2>Skill</h2>
       <table class="table table-hover align-middle table-fit">
         <thead>
-          <col style="width: 10%;">
-          <col style="width: 20%;">
+          <col style="width: 5%;">
+          <col style="width: 25%;">
           <col style="width: 50%;">
           <tr class="table-dark">
             <th scope="col">#</th>

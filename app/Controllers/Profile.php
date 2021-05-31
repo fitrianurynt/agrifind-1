@@ -43,7 +43,9 @@ class Profile extends BaseController
       'contact' => $this->contactModel->where('id', $session_id)->first(),
       'skill' => $this->skillModel->where('user_id', $session_id)->findAll(),
       'achieve' => $this->achieveModel->where('user_id', $session_id)->findAll(),
-      'rank' => $this->achieveModel->rank($session_id)
+      'rank' => $this->achieveModel->rank($session_id),
+      'following_count' => $this->followModel->where('follower_id', $session_id)->findAll(),
+      'follower_count' => $this->followModel->where('following_id', $session_id)->findAll(),
     ];
 
     return view('/profile/index', $data);
@@ -136,7 +138,9 @@ class Profile extends BaseController
       'skill' => $this->skillModel->where('user_id', $user_id)->findAll(),
       'achieve' => $this->achieveModel->where('user_id', $user_id)->findAll(),
       'rank' => $this->achieveModel->rank($user_id),
-      'is_following' => $this->followModel->where('follower_id', $session_id)->where('following_id', $user_id)->first()
+      'is_following' => $this->followModel->where('follower_id', $session_id)->where('following_id', $user_id)->first(),
+      'following_count' => $this->followModel->where('follower_id', $user_id)->findAll(),
+      'follower_count' => $this->followModel->where('following_id', $user_id)->findAll(),
     ];
 
     return view('/profile/view', $data);

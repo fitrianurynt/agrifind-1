@@ -52,19 +52,19 @@
           <thead>
             <col style="width: 5%;">
             <col style="width: 5%;">
-            <col style="width: 35%;">
-            <col style="width: 20%;">
+            <col style="width: 25%;">
             <col style="width: 15%;">
+            <col style="width: 10%;">
             <col style="width: 20%;">
             <col style="width: 20%;">
             <tr>
-              <th scope="col">#</th>
-              <th scope="col"></th>
+              <th scope="col" colspan="7"></th>
+              <!-- <th scope="col"></th>
               <th scope="col">Name</th>
               <th scope="col">NIM</th>
               <th scope="col">Batch</th>
               <th scope="col">Department</th>
-              <th scope="col">Status</th>
+              <th scope="col">Status</th> -->
             </tr>
           </thead>
           <tbody>
