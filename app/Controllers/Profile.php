@@ -190,8 +190,15 @@ class Profile extends BaseController
       'delete_receiver' => 0,
       'created_at' => time()
     ])->insert();
-    
+
     $username = $receiver['username'];
     return redirect()->to("/profile/view/$username");
+  }
+
+  public function whatsapp($text, $id)
+  {
+    $this->request->getVar('message_wa');
+
+    https://api.whatsapp.com/send?phone=6285884621204&text=Saya%20tertarik%20untuk%20tutor%20private
   }
 }

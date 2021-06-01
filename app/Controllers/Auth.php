@@ -192,7 +192,7 @@ class Auth extends BaseController
         
         <hr />
         <p><span style="font-family:arial,helvetica,sans-serif;">If you are having trouble clicking the button above, open the URL below<br />
-        ' . base_url() . '/auth/changePassword?email=' . $user_email . '&token=' . urlencode($token) . '</span></p>
+        ' . base_url() . '/auth/verify?email=' . $user_email . '&token=' . urlencode($token) . '</span></p>
 
         Activate your account: <br><a href="' . base_url() . '/auth/verify?email=' . $user_email . '&token=' . urlencode($token) . '">Activate<a>'
       );
