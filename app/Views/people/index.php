@@ -37,7 +37,7 @@
         <div class="col">
           <form action="" method="get">
             <div class="input-group mb-3">
-              <input onClick="this.select();" type="text" class="form-control" placeholder="Search People..." name="keyword" value="<?= $keyword; ?>">
+              <input onClick="this.select();" type="text" class="form-control" placeholder="Search People..." name="keyword" value="<?= $keyword; ?>" autofocus>
               <button class="btn btn-secondary" type="submit" name="submit">Search</button>
             </div>
           </form>
@@ -48,14 +48,14 @@
       <div class="row">
 
 
-        <table class="table table-hover align-middle">
+        <table class="table table-hover table-sm align-middle">
           <thead>
-            <col style="width: 5%;">
+            <!-- <col style="width: 5%;"> -->
             <col style="width: 5%;">
             <col style="width: 25%;">
             <col style="width: 15%;">
             <col style="width: 10%;">
-            <col style="width: 20%;">
+            <col style="width: 25%;">
             <col style="width: 20%;">
             <tr>
               <th scope="col" colspan="7"></th>
@@ -70,27 +70,27 @@
           <tbody>
 
             <!-- table content -->
-            <?php $i = 1 + (2 * ($currentPage - 1)) ?>
+            <?php $i = 1 + (25 * ($currentPage - 1)) ?>
             <?php foreach ($user as $u) : ?>
               <tr onclick="window.location='/profile/view/<?= $u['username']; ?>'">
-                <th class="align-middle" scope="row"><?= $i++; ?></th>
-                <td class="align-middle"><img src="/img/avatar/<?= $u['avatar']; ?>" style="width: 30px;
-                  height: 30px;
+                <!-- <th scope="row"><?= $i++; ?></th> -->
+                <td><img src="/img/avatar/<?= $u['avatar']; ?>" style="width: 25px;
+                  height: 25px;
                   background-position: center center;
                   background-repeat: no-repeat;
                   object-fit:cover;">
                 </td>
-                <td class="align-middle"><?= $u['name']; ?></td>
-                <td class="align-middle"><?= $u['nim']; ?></td>
-                <td class="align-middle"><?= $u['batch']; ?></td>
-                <td class="align-middle"><?= $u['department']; ?></td>
-                <td class="align-middle">
+                <td><?= $u['name']; ?></td>
+                <td><?= $u['nim']; ?></td>
+                <td><?= $u['batch']; ?></td>
+                <td><?= $u['department']; ?></td>
+                <td>
                   <?php if ($u['availability'] == 'Available') : ?>
-                    <p class="badge bg-success"><?= $u['availability']; ?></p>
+                    <span class="badge rounded-pill bg-success"><?= $u['availability']; ?></span>
                   <?php elseif (($u['availability'] == 'Unavailable')) : ?>
-                    <p class="badge bg-danger"><?= $u['availability']; ?></p>
+                    <span class="badge rounded-pill bg-danger"><?= $u['availability']; ?></span>
                   <?php elseif (($u['availability'] == 'Do Not Disturb')) : ?>
-                    <p class="badge bg-warning"><?= $u['availability']; ?></p>
+                    <span class="badge rounded-pill bg-warning"><?= $u['availability']; ?></span>
                   <?php endif; ?>
                 </td>
               </tr>

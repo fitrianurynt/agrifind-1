@@ -30,7 +30,8 @@ class Message extends BaseController
 
     $data = [
       'title' => 'Message | Agrifind',
-      'message' => $this->messageModel->where('receiver_id', $session_id)->where('delete_receiver', 0)->orderBy('created_at DESC')->findAll()
+      'message' => $this->messageModel->where('receiver_id', $session_id)->where('delete_receiver', 0)->orderBy('created_at DESC')->paginate(25, 'user_message'),
+      'pager' => $this->messageModel->pager
     ];
 
     return view('/message/index', $data);
@@ -42,7 +43,8 @@ class Message extends BaseController
 
     $data = [
       'title' => 'Message | Agrifind',
-      'message' => $this->messageModel->where('sender_id', $session_id)->where('delete_sender', 0)->orderBy('created_at DESC')->findAll()
+      'message' => $this->messageModel->where('sender_id', $session_id)->where('delete_sender', 0)->orderBy('created_at DESC')->paginate(25, 'user_message'),
+      'pager' => $this->messageModel->pager
     ];
 
     return view('/message/send', $data);

@@ -9,9 +9,6 @@
           <div class="card-title ">
             <h1>Message</h1>
           </div>
-          <div class="card-text">
-            Halo
-          </div>
         </div>
 
         <ul class="list-group list-group-flush">
@@ -30,13 +27,13 @@
 
     <div class="col-9">
       <div class="row">
-        for search and all later
+        <?= $pager->links('user_message', 'people_pagination'); ?>
 
       </div>
       <div class="row">
 
 
-        <table class="table table-hover align-middle">
+        <table class="table table-hover table-sm align-middle">
           <thead>
             <col style="width: 5%;">
             <col style="width: 50%;">

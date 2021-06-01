@@ -31,7 +31,7 @@ class Data_Model extends Model
       ->orLike('nim', $keyword)
       ->orLike('department', $keyword)
       ->orLike('faculty', $keyword)
-      ->orLike('availability', $keyword)
+      // ->orLike('availability', $keyword)
       ->orLike('batch', $keyword);
   }
 }
