@@ -30,7 +30,7 @@
     <div class="col-9">
       <div class="row">
         <div class="col-6">
-          <?= $pager->links('user_data', 'people_pagination'); ?>
+          <?= $pager->simpleLinks('user_data', 'people_pagination'); ?>
 
         </div>
 

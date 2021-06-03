@@ -51,7 +51,7 @@ class People extends BaseController
       'keyword' => $keyword
     ];
 
-    $session_id = $this->session->get('id');
+    
 
     return view('/people/index', $data);
   }

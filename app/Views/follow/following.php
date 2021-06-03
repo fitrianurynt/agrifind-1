@@ -12,10 +12,10 @@
         </div>
         <ul class="list-group list-group-flush">
           <a href="/follow">
-            <li class="list-group-item active">Follower</li>
+            <li class="list-group-item">Follower</li>
           </a>
           <a href="/follow/following">
-            <li class="list-group-item">Following</li>
+            <li class="list-group-item active">Following</li>
           </a>
         </ul>
       </div>
@@ -48,7 +48,7 @@
         <tbody>
 
           <!-- table content -->
-          <?php foreach ($follower as $u) : ?>
+          <?php foreach ($following as $u) : ?>
             <tr onclick="window.location='/profile/view/<?= $u['username']; ?>'">
               <td><img src="/img/avatar/<?= $u['avatar']; ?>" style="width: 25px;
                   height: 25px;
