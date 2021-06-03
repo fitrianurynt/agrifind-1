@@ -32,8 +32,11 @@ class Follow extends BaseController
 			$follower_id[] = $f['follower_id'];
 		}
 
-		$follower = $this->dataModel->whereIn('id', $follower_id)->findAll();
+    if($follower_id_find) $follower = $this->dataModel->whereIn('id', $follower_id)->findAll();
+    else $follower = [];
 
+
+		
     $data = [
       'title' => "Follow | Agrifind",
 			'follower' => $follower
@@ -50,7 +53,8 @@ class Follow extends BaseController
 			$following_id[] = $f['following_id'];
 		}
 
-		$following = $this->dataModel->whereIn('id', $following_id)->findAll();
+		if($following_id_find) $following = $this->dataModel->whereIn('id', $following_id)->findAll();
+    else $following = [];
 
     $data = [
       'title' => "Follow | Agrifind",

@@ -25,7 +25,7 @@
                   height: 30px;
                   background-position: center center;
                   background-repeat: no-repeat;
-                  object-fit:cover;"><b class="my-auto"> <?= $_SESSION['username']; ?></b>
+                  object-fit:cover;"><b class="my-auto mx-1"> <?= $_SESSION['username']; ?></b>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
               <li><a class="dropdown-item" href="/profile">Profile</a></li>

@@ -135,7 +135,7 @@ class Profile extends BaseController
     $user_id = $user['id'];
 
     $data = [
-      'title' => 'My Profile | Agrifind',
+      'title' => "$username's Profile | Agrifind",
       'user' => $this->dataModel->where('id', $user_id)->first(),
       'contact' => $this->contactModel->where('id', $user_id)->first(),
       'skill' => $this->skillModel->where('user_id', $user_id)->findAll(),

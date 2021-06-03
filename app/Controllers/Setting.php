@@ -269,6 +269,8 @@ class Setting extends BaseController
       'header' => $headerName
     ])->update();
 
+    $this->session->set('avatar' ,$avatarName);
+
     session()->setFlashdata(
       'setting_message',
       '<div class="alert alert-success" role="alert">

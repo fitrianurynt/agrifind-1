@@ -66,86 +66,90 @@
         <?php endforeach; ?>
       </ul>
 
-      <h2>Skill</h2>
-      <table class="table table-hover align-middle table-fit">
-        <thead>
-          <col style="width: 5%;">
-          <col style="width: 25%;">
-          <col style="width: 50%;">
-          <tr class="table-dark">
-            <th scope="col">#</th>
-            <th scope="col">Skill</th>
-            <th scope="col">Level</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <?php $i = 1 ?>
-
-          <?php foreach ($skill as $s) : ?>
-
-            <tr>
-              <th scope="row"><?= $i++; ?></th>
-              <th scope="row"><?= $s['name']; ?></th>
-              <th scope="row">
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: <?= $s['level'] * 10; ?>%;" aria-valuenow="<?= $s['level']; ?>" aria-valuemin="0" aria-valuemax="20"><?= $s['level']; ?></div>
-                </div>
-              </th>
+      <?php if ($skill) : ?>
+        <h2>Skill</h2>
+        <table class="table table-hover align-middle table-fit">
+          <thead>
+            <col style="width: 5%;">
+            <col style="width: 25%;">
+            <col style="width: 50%;">
+            <tr class="table-dark">
+              <th scope="col">#</th>
+              <th scope="col">Skill</th>
+              <th scope="col">Level</th>
             </tr>
+          </thead>
 
-          <?php endforeach; ?>
+          <tbody>
+            <?php $i = 1 ?>
 
-        </tbody>
-      </table>
+            <?php foreach ($skill as $s) : ?>
 
-      <h2>Achievement</h2>
-      <table class="table table-hover align-middle table-fit">
-        <thead>
-          <col style="width: 5%;">
-          <col style="width: 15%;">
-          <col style="width: 15%;">
-          <col style="width: 15%;">
-          <col style="width: 15%;">
-          <col style="width: 15%;">
-          <col style="width: 20%;">
-          <tr class="table-dark">
-            <th scope="col">#</th>
-            <th scope="col">Name</th>
-            <th scope="col">Field</th>
-            <th scope="col">Rank</th>
-            <th scope="col">Organiser</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <?php $i = 1 ?>
-
-          <?php foreach ($achieve as $s) : ?>
-
-            <tr>
-              <th scope="row" data-bs-toggle="collapse" data-bs-target="#desc<?= $s['id']; ?>"><?= $i++; ?></th>
-              <td scope="row" data-bs-toggle="collapse" data-bs-target="#desc<?= $s['id']; ?>"><b><?= $s['name']; ?></b></td>
-              <td scope="row" data-bs-toggle="collapse" data-bs-target="#desc<?= $s['id']; ?>"><?= $s['field']; ?></td>
-              <td scope="row" data-bs-toggle="collapse" data-bs-target="#desc<?= $s['id']; ?>"><?= $s['rank']; ?></td>
-              <td scope="row" data-bs-toggle="collapse" data-bs-target="#desc<?= $s['id']; ?>"><?= $s['organiser']; ?></td>
-            </tr>
-
-            <?php if ($s['description'] != '') : ?>
-
-              <tr class="collapse" id="desc<?= $s['id']; ?>">
-                <td></td>
-                <td colspan="4" scope="row"><?= $s['description']; ?></td>
+              <tr>
+                <th scope="row"><?= $i++; ?></th>
+                <th scope="row"><?= $s['name']; ?></th>
+                <th scope="row">
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: <?= $s['level'] * 10; ?>%;" aria-valuenow="<?= $s['level']; ?>" aria-valuemin="0" aria-valuemax="20"><?= $s['level']; ?></div>
+                  </div>
+                </th>
               </tr>
 
-            <?php endif; ?>
+            <?php endforeach; ?>
+
+          </tbody>
+        </table>
+      <?php endif; ?>
+
+      <?php if ($achieve) : ?>
+        <h2>Achievement</h2>
+        <table class="table table-hover align-middle table-fit">
+          <thead>
+            <col style="width: 5%;">
+            <col style="width: 15%;">
+            <col style="width: 15%;">
+            <col style="width: 15%;">
+            <col style="width: 15%;">
+            <col style="width: 15%;">
+            <col style="width: 20%;">
+            <tr class="table-dark">
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Field</th>
+              <th scope="col">Rank</th>
+              <th scope="col">Organiser</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <?php $i = 1 ?>
+
+            <?php foreach ($achieve as $s) : ?>
+
+              <tr>
+                <th scope="row" data-bs-toggle="collapse" data-bs-target="#desc<?= $s['id']; ?>"><?= $i++; ?></th>
+                <td scope="row" data-bs-toggle="collapse" data-bs-target="#desc<?= $s['id']; ?>"><b><?= $s['name']; ?></b></td>
+                <td scope="row" data-bs-toggle="collapse" data-bs-target="#desc<?= $s['id']; ?>"><?= $s['field']; ?></td>
+                <td scope="row" data-bs-toggle="collapse" data-bs-target="#desc<?= $s['id']; ?>"><?= $s['rank']; ?></td>
+                <td scope="row" data-bs-toggle="collapse" data-bs-target="#desc<?= $s['id']; ?>"><?= $s['organiser']; ?></td>
+              </tr>
+
+              <?php if ($s['description'] != '') : ?>
+
+                <tr class="collapse" id="desc<?= $s['id']; ?>">
+                  <td></td>
+                  <td colspan="4" scope="row"><?= $s['description']; ?></td>
+                </tr>
+
+              <?php endif; ?>
 
 
 
-          <?php endforeach; ?>
+            <?php endforeach; ?>
 
-        </tbody>
-      </table>
+          </tbody>
+        </table>
+      <?php endif; ?>
 
     </div>
 
