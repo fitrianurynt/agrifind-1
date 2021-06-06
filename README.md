@@ -38,3 +38,20 @@ bidang tertentu.
 2. Sebagai wadah untuk memperlihatkan keahlian yang dimiliki.
 3. Menambah relasi dan koneksi baru antar mahasiswa.
 
+# RUANG LINGKUP
+1. 
+
+# DESKRIPSI APLIKASI
+
+# USER ANALYSIS
+
+# SPESIFIKASI ENVIRONMENT
+
+# HASIL DAN PEMBAHASAN
+
+# HASIL IMPLEMENTASI
+
+# TESTING
+
+# SARAN
+
