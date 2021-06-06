@@ -39,7 +39,8 @@ bidang tertentu.
 3. Menambah relasi dan koneksi baru antar mahasiswa.
 
 # RUANG LINGKUP
-1. 
+1. Mahasiswa IPB University yang jarang menggunakan website harus terbiasa karena belum ada versi Mobile Appsnya
+2. 
 
 # DESKRIPSI APLIKASI
 
