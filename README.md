@@ -87,6 +87,7 @@ Tech Stack : <ul>
 ## USE CASE DIAGRAM
 ![USE CASE DIAGRAM-USE CASE DIAGRAM](https://user-images.githubusercontent.com/63392797/121227947-bde25400-c8be-11eb-98bf-007ce8314367.png)
 ## ACTIVITY DIAGRAM
+![AgriFind-User Flow](https://user-images.githubusercontent.com/63392797/121228192-0732a380-c8bf-11eb-8619-46211a1d0559.png)
 ## CLASS DIAGRAM
 ## ERD
 ![ERD RPL](https://user-images.githubusercontent.com/63392797/121227882-a905c080-c8be-11eb-86e2-93deda8a8d62.png)
