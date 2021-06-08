@@ -51,6 +51,11 @@ identitas diri serta kemampuan yang dimiliki untuk mendapatkan rekan yang sesuai
 terdapat fitur pencarian tersaring serta fitur chat.
 
 # USER ANALYSIS
+<ul>
+	<li> Sebagai seorang mahasiswa, saya ingin menyalurakan kreatifitas saya dengan membuat proyek bersama-sama
+	<li> Sebagai seorang manusia, saya ingin bersosialisasi dan menyelesaikan suatu hal bersama-sama
+	<li> Sebagai seorang individu, saya ingin memiliki teman yang bisa membantu saya merealisasikan ide saya
+</ul>
 
 # SPESIFIKASI ENVIRONMENT
 Hardware   : <ul>
