@@ -97,6 +97,10 @@ Tech Stack : <ul>
 
 <Melihat Profile orang lain</p>
 
+![RPL-Page-5](https://user-images.githubusercontent.com/63392797/121237257-701f1900-c8c9-11eb-9329-e5570f58f2db.png)
+
+<p>Mengirim Pesan ke orang lain</p>
+
 ## C. CLASS DIAGRAM
 ## D. ERD
 ![ERD RPL](https://user-images.githubusercontent.com/63392797/121227882-a905c080-c8be-11eb-86e2-93deda8a8d62.png)
