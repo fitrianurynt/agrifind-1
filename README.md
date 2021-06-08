@@ -89,7 +89,7 @@ Tech Stack : <ul>
 ## ACTIVITY DIAGRAM
 ## CLASS DIAGRAM
 ## ERD
-![ERD](https://user-images.githubusercontent.com/63392797/121219537-617b3680-c8b6-11eb-8e61-6f022c5c4f0c.png)
+![USE CASE DIAGRAM-USE CASE DIAGRAM](https://user-images.githubusercontent.com/63392797/121227947-bde25400-c8be-11eb-98bf-007ce8314367.png)
 ## ARSITEKTUR
 ## CRUD
 
