@@ -53,27 +53,27 @@ terdapat fitur pencarian tersaring serta fitur chat.
 # USER ANALYSIS
 
 # SPESIFIKASI ENVIRONMENT
-Hardware   : ● Processor : Intel Core i5-8250 Core Clock 1.8 GHz
-	     ● Memory : 12 GB DDR4
-	     ● Graphics Card : NVIDIA GeForce GTX 1050
-   	     ● Storage : 1 TB HDD + 256 GB SSD
+Hardware   : <ul>
+	    	 <li>Processor : Intel Core i5-8250 Core Clock 1.8 GHz
+	    	 <li>Memory : 12 GB DDR4
+	     	 <li>Graphics Card : NVIDIA GeForce GTX 1050
+   	    	 <li>Storage : 1 TB HDD + 256 GB SSD
+	     </ul>
 	     
-Software   : ● OS : WIndows 10
-	     ● Visual Studio Code
-	     ● Sublime Text
-	
-Tech Stack : ● Figma
-	     ● Trello
-	     ● MySql
-	     ● PHP
-	     ● Laravel
+Software   : <ul>
+	     	<li>OS : WIndows 10
+	     	<li>Visual Studio Code
+	     	<li>Sublime Text
+	     </ul>
+	     
+Tech Stack : <ul>
+	     	<li>Figma
+	     	<li>Trello
+	      	<li>MySql
+	      	<li>PHP
+	        <li>Laravel
+	     </ul>
 
-Perangkat Lunak
-● OS : Windows 10
-● Text Editor : Sublime / Visual Studio Code
-● Framework : Laravel
-● Database : MySQL
-● Server : Apache
 # HASIL DAN PEMBAHASAN
 
 # HASIL IMPLEMENTASI
