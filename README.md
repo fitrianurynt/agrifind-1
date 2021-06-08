@@ -47,7 +47,21 @@ bidang tertentu.
 # USER ANALYSIS
 
 # SPESIFIKASI ENVIRONMENT
+Hardware   : ● Processor : Intel Core i5-8250 Core Clock 1.8 GHz
+	     ● Memory : 12 GB DDR4
+	     ● Graphics Card : NVIDIA GeForce GTX 1050
+   	     ● Storage : 1 TB HDD + 256 GB SSD
+	     
+Software   : ● OS : WIndows 10
 
+Tech Stack :
+
+Perangkat Lunak
+● OS : Windows 10
+● Text Editor : Sublime / Visual Studio Code
+● Framework : Laravel
+● Database : MySQL
+● Server : Apache
 # HASIL DAN PEMBAHASAN
 
 # HASIL IMPLEMENTASI
