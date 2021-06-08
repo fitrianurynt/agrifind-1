@@ -85,11 +85,11 @@ Tech Stack : <ul>
 # HASIL DAN PEMBAHASAN
 
 ## USE CASE DIAGRAM
-![ERD RPL](https://user-images.githubusercontent.com/63392797/121227882-a905c080-c8be-11eb-86e2-93deda8a8d62.png)
+![USE CASE DIAGRAM-USE CASE DIAGRAM](https://user-images.githubusercontent.com/63392797/121227947-bde25400-c8be-11eb-98bf-007ce8314367.png)
 ## ACTIVITY DIAGRAM
 ## CLASS DIAGRAM
 ## ERD
-![USE CASE DIAGRAM-USE CASE DIAGRAM](https://user-images.githubusercontent.com/63392797/121227947-bde25400-c8be-11eb-98bf-007ce8314367.png)
+![ERD RPL](https://user-images.githubusercontent.com/63392797/121227882-a905c080-c8be-11eb-86e2-93deda8a8d62.png)
 ## ARSITEKTUR
 ## CRUD
 
