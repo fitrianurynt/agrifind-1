@@ -70,7 +70,6 @@ Software   : <ul>
 	     	<li>Browser : Chrome, Firefox, Edge
 		<li>Visual Studio Code
 	     	<li>Sublime Text
-		<li>
 	     </ul>
 	     
 Tech Stack : <ul>
@@ -93,6 +92,10 @@ Tech Stack : <ul>
 ![ERD RPL](https://user-images.githubusercontent.com/63392797/121227882-a905c080-c8be-11eb-86e2-93deda8a8d62.png)
 ## ARSITEKTUR
 ## CRUD
+CREATE
+READ
+UPDATE
+DELETE
 
 # HASIL IMPLEMENTASI
 
