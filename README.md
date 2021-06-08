@@ -116,7 +116,7 @@ Tech Stack : <ul>
 
 # OUR JOURNEY
 ## TRELLO
-
+![AgriFind _ Trello - Google Chrome 09_06_2021 01_41_46 (2)](https://user-images.githubusercontent.com/63392797/121232399-254ed280-c8c4-11eb-9b1c-e17e3438b272.png)
 
 # SARAN
 
