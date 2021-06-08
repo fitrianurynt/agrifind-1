@@ -101,7 +101,7 @@ Tech Stack : <ul>
 
 <p>Mengirim Pesan ke orang lain</p>
 
-![RPL-Page-6](https://user-images.githubusercontent.com/63392797/121237375-95138c00-c8c9-11eb-9fff-6632d7f0be3a.png)
+![RPL-Page-6](https://user-images.githubusercontent.com/63392797/121238298-87aad180-c8ca-11eb-8dbf-9d2c17dff141.png)
 
 
 ## C. CLASS DIAGRAM
