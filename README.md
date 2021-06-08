@@ -114,5 +114,9 @@ Tech Stack : <ul>
 
 # TESTING
 
+# OUR JOURNEY
+## TRELLO
+
+
 # SARAN
 
