@@ -82,35 +82,32 @@ Tech Stack : <ul>
 
 # HASIL DAN PEMBAHASAN
 
-## USE CASE DIAGRAM
+## A. USE CASE DIAGRAM
 ![USE CASE DIAGRAM-USE CASE DIAGRAM](https://user-images.githubusercontent.com/63392797/121227947-bde25400-c8be-11eb-98bf-007ce8314367.png)
-## ACTIVITY DIAGRAM
+## B. ACTIVITY DIAGRAM
 ![AgriFind-User Flow](https://user-images.githubusercontent.com/63392797/121228192-0732a380-c8bf-11eb-8619-46211a1d0559.png)
 
-### MEMBUAT AKUN
+###
+Membuat Akun
 ![RPL-LOGIN](https://user-images.githubusercontent.com/63392797/121229886-1c103680-c8c1-11eb-83ce-e02c87ee187d.png)
-### MELIHAT DAN MENGEDIT PROFILE
-![RPL-Page-4](https://user-images.githubusercontent.com/63392797/121231671-406d1280-c8c3-11eb-88f1-ed631e75d3ec.png)
-### MELIHAT PROFILE ORANG LAIN
-
-## CLASS DIAGRAM
+## C. CLASS DIAGRAM
 ## ERD
 ![ERD RPL](https://user-images.githubusercontent.com/63392797/121227882-a905c080-c8be-11eb-86e2-93deda8a8d62.png)
-## ARSITEKTUR
+## D. ARSITEKTUR
 
-## CRUD
+## E. CRUD
 <ul>
 	<li>CREATE
-		<ol> <li> Membuat akun pada web AgriFind </ol>
+		<ol> <li> Membuat akun pada web AgriFind </li></ol>
 	<li>READ
-		<ol> 	<li> Membaca email dan password akun User pada saat login
-			<li>Menampilkan Skill dan Achievement User </ol>
+		<ol> 	<li> Membaca email dan password akun User pada saat login</li>
+			<li>Menampilkan Skill dan Achievement User </li></ol>
 	<li>UPDATE
-		<ol>	<li> Mengubah password
-			<li> Mengubah informasi akun atau info kontak
-			<li>Menambah achievement dan skill </ol>
+		<ol>	<li> Mengubah password </li>
+			<li> Mengubah informasi akun atau info kontak </li>
+			<li>Menambah achievement dan skill </li> </ol>
 	<li>DELETE
-		<ol>	<li> Menghapus akun </ol>
+		<ol>	<li> Menghapus akun </li> </ol>
 </ul>
 
 # HASIL IMPLEMENTASI
