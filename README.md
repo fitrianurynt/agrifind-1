@@ -43,6 +43,12 @@ bidang tertentu.
 2. 
 
 # DESKRIPSI APLIKASI
+<p>Agri-Find merupakan aplikasi berbasis web yang berfungsi untuk mencari dan
+menemukan mahasiswa IPB yang memiliki kemampuan yang sesuai dalam menjalankan suatu
+proyek. Web ini juga menampilkan kategori-kategori berdasarkan angkatan dan departemen
+untuk mempermudah dalam menentukan kriteria diinginkan. Pada Agri-Find akan dilampirkan
+identitas diri serta kemampuan yang dimiliki untuk mendapatkan rekan yang sesuai. Juga
+terdapat fitur pencarian tersaring serta fitur chat.
 
 # USER ANALYSIS
 
