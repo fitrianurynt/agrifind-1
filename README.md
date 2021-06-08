@@ -40,7 +40,6 @@ bidang tertentu.
 
 # RUANG LINGKUP
 1. Mahasiswa IPB University yang jarang menggunakan website harus terbiasa karena belum ada versi Mobile Appsnya
-2. 
 
 # DESKRIPSI APLIKASI
 <p>Agri-Find merupakan aplikasi berbasis web yang berfungsi untuk mencari dan
@@ -87,6 +86,7 @@ Tech Stack : <ul>
 ![USE CASE DIAGRAM-USE CASE DIAGRAM](https://user-images.githubusercontent.com/63392797/121227947-bde25400-c8be-11eb-98bf-007ce8314367.png)
 ## ACTIVITY DIAGRAM
 ![AgriFind-User Flow](https://user-images.githubusercontent.com/63392797/121228192-0732a380-c8bf-11eb-8619-46211a1d0559.png)
+
 ###
 Membuat Akun
 ![RPL-LOGIN](https://user-images.githubusercontent.com/63392797/121229886-1c103680-c8c1-11eb-83ce-e02c87ee187d.png)
@@ -94,19 +94,20 @@ Membuat Akun
 ## ERD
 ![ERD RPL](https://user-images.githubusercontent.com/63392797/121227882-a905c080-c8be-11eb-86e2-93deda8a8d62.png)
 ## ARSITEKTUR
+
 ## CRUD
 <ul>
 	<li>CREATE
-		1. Membuat akun pada web AgriFind
+		<ol> <li> Membuat akun pada web AgriFind </ol>
 	<li>READ
-		1.Membaca email dan password akun User pada saat login
-		2.Menampilkan Skill dan Achievement User
+		<ol> 	<li> Membaca email dan password akun User pada saat login
+			<li>Menampilkan Skill dan Achievement User </ol>
 	<li>UPDATE
-		1. Mengubah password
-		2. Mengubah informasi akun atau info kontak
-		3. Menambah achievement dan skill
+		<ol>	<li> Mengubah password
+			<li> Mengubah informasi akun atau info kontak
+			<li>Menambah achievement dan skill </ol>
 	<li>DELETE
-		1.Menghapus akun
+		<ol>	<li> Menghapus akun </ol>
 </ul>
 
 # HASIL IMPLEMENTASI
