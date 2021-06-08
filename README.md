@@ -87,15 +87,15 @@ Tech Stack : <ul>
 ## B. ACTIVITY DIAGRAM
 ![AgriFind-User Flow](https://user-images.githubusercontent.com/63392797/121228192-0732a380-c8bf-11eb-8619-46211a1d0559.png)
 
-###
-Membuat Akun
+###Membuat Akun
+
 ![RPL-LOGIN](https://user-images.githubusercontent.com/63392797/121229886-1c103680-c8c1-11eb-83ce-e02c87ee187d.png)
 ## C. CLASS DIAGRAM
-## ERD
+## D. ERD
 ![ERD RPL](https://user-images.githubusercontent.com/63392797/121227882-a905c080-c8be-11eb-86e2-93deda8a8d62.png)
-## D. ARSITEKTUR
+## E. ARSITEKTUR
 
-## E. CRUD
+## F. CRUD
 <ul>
 	<li>CREATE
 		<ol> <li> Membuat akun pada web AgriFind </li></ol>
