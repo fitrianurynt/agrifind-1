@@ -90,6 +90,10 @@ Tech Stack : <ul>
 <p>Membuat Akun</p>
 
 ![RPL-LOGIN](https://user-images.githubusercontent.com/63392797/121229886-1c103680-c8c1-11eb-83ce-e02c87ee187d.png)
+
+<p>Melihat dan Mengedit Profile</p>
+
+
 ## C. CLASS DIAGRAM
 ## D. ERD
 ![ERD RPL](https://user-images.githubusercontent.com/63392797/121227882-a905c080-c8be-11eb-86e2-93deda8a8d62.png)
