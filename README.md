@@ -95,10 +95,19 @@ Membuat Akun
 ![ERD RPL](https://user-images.githubusercontent.com/63392797/121227882-a905c080-c8be-11eb-86e2-93deda8a8d62.png)
 ## ARSITEKTUR
 ## CRUD
-CREATE
-READ
-UPDATE
-DELETE
+<ul>
+	<li>CREATE
+		1. Membuat akun pada web AgriFind
+	<li>READ
+		1.Membaca email dan password akun User pada saat login
+		2.Menampilkan Skill dan Achievement User
+	<li>UPDATE
+		1. Mengubah password
+		2. Mengubah informasi akun atau info kontak
+		3. Menambah achievement dan skill
+	<li>DELETE
+		1.Menghapus akun
+</ul>
 
 # HASIL IMPLEMENTASI
 
