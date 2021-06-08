@@ -62,8 +62,10 @@ Hardware   : <ul>
 	     
 Software   : <ul>
 	     	<li>OS : WIndows 10
-	     	<li>Visual Studio Code
+	     	<li>Browser : Chrome, Firefox, Edge
+		<li>Visual Studio Code
 	     	<li>Sublime Text
+		<li>
 	     </ul>
 	     
 Tech Stack : <ul>
@@ -72,6 +74,7 @@ Tech Stack : <ul>
 	      	<li>MySql
 	      	<li>PHP
 	        <li>Laravel
+		<li>Apache
 	     </ul>
 
 # HASIL DAN PEMBAHASAN
