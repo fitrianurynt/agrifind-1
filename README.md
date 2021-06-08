@@ -59,8 +59,14 @@ Hardware   : ● Processor : Intel Core i5-8250 Core Clock 1.8 GHz
    	     ● Storage : 1 TB HDD + 256 GB SSD
 	     
 Software   : ● OS : WIndows 10
-
-Tech Stack :
+	     ● Visual Studio Code
+	     ● Sublime Text
+	
+Tech Stack : ● Figma
+	     ● Trello
+	     ● MySql
+	     ● PHP
+	     ● Laravel
 
 Perangkat Lunak
 ● OS : Windows 10
