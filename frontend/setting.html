@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <Title>Setting</Title>
+      <!--Link-->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
+    
+      <!--Bootstrap-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+       <!--CSS-->
+         <link href="setting.css" rel="stylesheet">
+      
+   </head>
+   <body>
+       
+    <header>
+        <!--Membuat navbar-->
+        
+         <nav class="navbar navbar-expand-lg bg-black">
+         <div class="container-fluid">
+             <a class="navbar-brand" href="#">
+                 <img src="foto/Group 4.png " alt="" width="30" height="30" class="d-inline-block align-text-top">
+                 <strong>AgriFind</strong>
+               </a>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                   <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="profilee.html">Profile</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="people.html">People</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="follow.html">Follow</a>
+                   </li>
+                 </ul>
+                  
+             </div>
+             <div class="nav-item dropdown">
+                 <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     <img src="foto/Group 4.png" alt=""   width="24" height="24" class="rounded-circle"> Name
+                 </a>
+               <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                 <li><a class="dropdown-item" href="profilee.html">My Profile</a></li>
+                 <li><a class="dropdown-item" href="setting.html">Setting </a></li>
+                 <li><a class="dropdown-item" href="follow.html">Follow</a></li>
+       
+                 <li><a class="dropdown-item" href="#">Log Out</a></li>
+               </ul>
+                 </div>
+                 </ul>
+                
+         </nav>
+       </header>
+  <!--Setting-->
+        <div class="container1" >
+          <h3 class="font-weight-bold py-3 mb-4">
+           <strong>Settings</strong>
+          </h3>
+  
+          <div class="container3">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item list-group-item-action list-group-item-dark" ><a href="setting.html" >General</a></li>
+              <li class="list-group-item list-group-item-action list-group-item-dark"><a href="account.html">Account</a></li>
+              <li class="list-group-item list-group-item-action list-group-item-dark"><a href="contact.html">Contact</a></li>
+              <li class="list-group-item list-group-item-action list-group-item-dark "><a href="appearance.html">Appearance</a></li>
+              <li class="list-group-item list-group-item-action list-group-item-dark "><a href="skill.html">Skill</a></li>
+              <li class="list-group-item list-group-item-action list-group-item-dark "><a href="achievement.html">Achievement</a></li>
+            </ul>
+          </div>
+          </div>
+        <div class="container2 flex-grow-1">
+            <div class="col-8">
+                <strong style="font-size:35px;">General Setting</strong>
+                
+                <form>
+                    
+                    <div class="form-group row">
+                      <label for="disabledUsername" class="col-sm-2 col-form-label" disabled>Username</label>
+                      <div class="col-sm-10">
+                        <input type="text" readonly class="form-control-plaintext" id="disabledUsername" value="akimpi" style="margin-left:20px;" disabled>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="inputNama" class="col-sm-2 col-form-label">Name</label>
+                      <div class="col-sm-10">
+                        <input type="text"  class="form-control-plaintext" id="inputNama" value="Abdul Hakim" style="margin-left:20px;">
+                      </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputNIM" class="col-sm-2 col-form-label">NIM</label>
+                        <div class="col-sm-10">
+                          <input type="text"  class="form-control-plaintext" id="inputNIM" value="G64190078" style="margin-left:20px;">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputBatch" class="col-sm-2 col-form-label" >Batch</label>
+                        <div class="col-sm-10">
+                            <input type="number"  class="form-control-plaintext" id="inputBatch" value="56" style="margin-left:20px;">
+                        </div>
+                      </div>
+                      <div class="form-group row" >
+                        <label for="inputBatch" class="col-sm-2 col-form-label"  >Availability</label>
+                        <div class="col-sm-10" style="margin-left:1px;">
+                        <button type="button" class="btn btn-outline-success">Available</button>
+                        <button type="button" class="btn btn-outline-danger">Not Available</button>
+                        <button type="button" class="btn btn-outline-warning">Do not Disturb</button>
+                     </div>
+                     </div>
+                   
+                  
+                  <hr>
+                  <div class="col-12">
+                    <strong style="font-size:35px;">Faculty and Department</strong>
+                    <p style="color:gray;">Faculty and Department depends on your NIM</p>
+                    
+                   
+                        <div class="form-group row ">
+                            <label for="disabledFaculty" class="col-sm-2 col-form-label" style="padding-right:20px;">Faculty</label>
+                            <div class="col-sm-10">
+                              <input type="text"  reasonly class="form-control-plaintext"  id="disabledFaculty"  style="margin-left:20px; color:gray;" value="Matematika dan Ilmu Pengetahuan Alam"  disabled>
+                            </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="disabledDepartment" class="col-sm-2 col-form-label" style="padding-right:20px;">Department   </label>
+                                <div class="col-sm-10">
+                                  <input type="text"  reasonly class="form-control-plaintext" id="disableDepartment" style="margin-left:20px; color:gray;" value="Ilmu Komputer"  disabled>
+                                </div>
+                                </div>
+                              
+                     
+                      <hr>
+                  <div  style="margin-left:3px;">
+                    <strong style="font-size:35px;">Curriculum Vitae</strong>
+                    <p style="color:gray;">Describe yourself</p>
+                    
+                    
+                      <div class="mb-3">
+                        <label for="formFile" class="form-label">Curriculum Vitae</label>
+                            <div class="col-sm-10" >
+                              <input class="form-control" type="file" id="formFile" style="position:relative; right:15px;">
+                            </div>
+                            </div>
+                               
+                     
+                      <hr>
+                      <div  style="margin-left:5px;">
+                        <strong style="font-size:35px;">About Me</strong>
+                        <p style="color:gray;">Describe yourself</p>
+        
+                       
+                            <div class="form-group">
+                                <label for="Aboutme" >About Me</label>
+                                <textarea class="form-control" id="Aboutme" rows="3"></textarea>
+                              </div>
+                          </form>
+                          </div>
+                        <button type="submit" class="btn btn-dark" id="button">Save Changes</button>
+        </div>
+        </div>
+        </div>
+    </div>
+  <footer style="background:#16694A;" >
+    <p>@akimpi 2020</p>
+  </footer>
+  </body>
+  </html>
