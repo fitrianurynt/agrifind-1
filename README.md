@@ -85,7 +85,7 @@ Tech Stack : <ul>
 # HASIL DAN PEMBAHASAN
 
 ## USE CASE DIAGRAM
-![USE CASE DIAGRAM-Page-2](https://user-images.githubusercontent.com/63392797/121221543-414c7700-c8b8-11eb-8294-e280d1e6fc39.png)
+![USE CASE DIAGRAM-ERD RPL](https://user-images.githubusercontent.com/63392797/121227696-72c84100-c8be-11eb-9a45-f5cdcf7ef44c.png)
 ## ACTIVITY DIAGRAM
 ## CLASS DIAGRAM
 ## ERD
