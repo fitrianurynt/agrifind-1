@@ -95,6 +95,8 @@ Tech Stack : <ul>
 
 ![RPL-Page-4](https://user-images.githubusercontent.com/63392797/121232983-ba51cb80-c8c4-11eb-9dda-68285570ef70.png)
 
+<Melihat Profile orang lain</p>
+
 ## C. CLASS DIAGRAM
 ## D. ERD
 ![ERD RPL](https://user-images.githubusercontent.com/63392797/121227882-a905c080-c8be-11eb-86e2-93deda8a8d62.png)
