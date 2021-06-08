@@ -87,9 +87,10 @@ Tech Stack : <ul>
 ## ACTIVITY DIAGRAM
 ![AgriFind-User Flow](https://user-images.githubusercontent.com/63392797/121228192-0732a380-c8bf-11eb-8619-46211a1d0559.png)
 
-###
-Membuat Akun
+### MEMBUAT AKUN
 ![RPL-LOGIN](https://user-images.githubusercontent.com/63392797/121229886-1c103680-c8c1-11eb-83ce-e02c87ee187d.png)
+### MELIHAT DAN MENGEDIT PROFILE
+![RPL-Page-4](https://user-images.githubusercontent.com/63392797/121231671-406d1280-c8c3-11eb-88f1-ed631e75d3ec.png)
 ## CLASS DIAGRAM
 ## ERD
 ![ERD RPL](https://user-images.githubusercontent.com/63392797/121227882-a905c080-c8be-11eb-86e2-93deda8a8d62.png)
