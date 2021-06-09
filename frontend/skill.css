@@ -94,4 +94,8 @@ font-family:"Raleway";
 .table {
   margin-top:40px;
 }
-
+.message {
+  margin-left:30px;
+  position:relative;
+  right:10px;
+}

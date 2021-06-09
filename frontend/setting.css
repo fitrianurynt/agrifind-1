@@ -90,4 +90,9 @@ body   {
     bottom:0px;
    left:300px;
 }
+.message {
+  margin-left:30px;
+  position:relative;
+  right:10px;
+}
 

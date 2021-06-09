@@ -222,5 +222,10 @@ footer
   
 
 }
+.message {
+  margin-left:30px;
+  position:relative;
+  right:10px;
+}
 
 

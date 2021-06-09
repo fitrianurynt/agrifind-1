@@ -88,3 +88,8 @@ font-family:"Raleway";
     right:15px;
 }
 
+.message {
+  margin-left:30px;
+  position:relative;
+  right:10px;
+}

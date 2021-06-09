@@ -106,4 +106,8 @@ font-family:"Raleway";
    left:120px;
     
 }
-
+.message {
+  margin-left:30px;
+  position:relative;
+  right:10px;
+}
