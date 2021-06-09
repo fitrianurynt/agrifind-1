@@ -51,9 +51,9 @@ terdapat fitur pencarian tersaring serta fitur chat.
 
 # USER ANALYSIS
 <ul>
-	<li> Sebagai seorang mahasiswa, saya ingin menyalurakan kreatifitas saya dengan membuat proyek bersama-sama
-	<li> Sebagai seorang manusia, saya ingin bersosialisasi dan menyelesaikan suatu hal bersama-sama
-	<li> Sebagai seorang individu, saya ingin memiliki teman yang bisa membantu saya merealisasikan ide saya
+	<li> Sebagai seorang mahasiswa, saya ingin menyalurakan kreatifitas saya dengan membuat proyek bersama-sama.
+	<li> Sebagai seorang manusia, saya ingin bersosialisasi dan menyelesaikan suatu hal bersama-sama.
+	<li> Sebagai seorang individu, saya ingin memiliki teman yang bisa membantu saya merealisasikan ide saya.
 </ul>
 
 # SPESIFIKASI ENVIRONMENT
@@ -134,4 +134,5 @@ Tech Stack : <ul>
 ## G-SITES
 ![Screenshot (218)](https://user-images.githubusercontent.com/79956203/121248117-3d771f80-c8cd-11eb-9c09-cda0b3b3fddb.png)
 # SARAN
-
+# PENUTUP
+Puji Syukur kepada Allah SWT atas segala rahmat yang diberikan sehingga kelompok kami dapat menyelesaikan tugas project praktium dari Mata Kuliah Rekayasa Perangkat Lunak Departemen Ilmu Komputer IPB University. Dalam project ini, kami belajar banyak hal-hal baru dalam bidang software engineering, mulai dari task management, user analisis, stakeholder, time managament dan sebagainya. Kelompok kami ingin mengucapkan terimakasih kepada Para dosen mata kuliah RPL beserta asisten praktikum atas ilmu yang sudah diberikan sehingga kami dapat menyelesaikan project aplikasi web ini dengan sebaik mungkin.
