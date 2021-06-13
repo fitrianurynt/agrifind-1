@@ -112,16 +112,20 @@ Tech Stack : <ul>
 ## F. CRUD
 <ul>
 	<li>CREATE
-		<ol> <li> Membuat akun pada web AgriFind </li></ol>
+		<ol> 	<li> Membuat akun pada web AgriFind </li>
+			<li> Mencantumkan skill dan achievement</li>
+			<li> Mengirimkan pesan </li> </ol>
 	<li>READ
 		<ol> 	<li> Membaca email dan password akun User pada saat login</li>
-			<li>Menampilkan Skill dan Achievement User </li></ol>
+			<li> Menampilkan Skill dan Achievement User </li>
+			<li> Mengirim dan menerima pesan </li></ol>
 	<li>UPDATE
 		<ol>	<li> Mengubah password </li>
 			<li> Mengubah informasi akun atau info kontak </li>
-			<li>Menambah achievement dan skill </li> </ol>
+			<li> Menambah achievement dan skill </li> </ol>
 	<li>DELETE
-		<ol>	<li> Menghapus akun </li> </ol>
+		<ol>	<li> Menghapus akun </li>
+			<li> Menghapus pesan </li> </ol>
 </ul>
 
 # HASIL IMPLEMENTASI
